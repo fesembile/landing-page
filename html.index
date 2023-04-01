@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding-bottom: 30%;
+            background: url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) no-repeat center center;
+            background-size: cover;
+            background-position: 0px 0px;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        /*section.top-part {
+            background: url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) no-repeat center center;
+            background-size: cover;
+            background-position: 0px 0px;
+            background-attachment: fixed;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }*/
+
+        .navbar {
+            display: inline-block;
+            align-items: left;
+            width: 27%;
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+            word-spacing: 13px;
+            position: fixed;
+            right: 10%;
+            vertical-align: auto;
+            top: 2%;
+
+        }
+
+
+
+        .subscribe {
+            background-color: rgb(89, 155, 241);
+            border: transparent;
+            float: left;
+            padding: 1%;
+            font-family: Arial, Helvetica, sans-serif;
+            -webkit-text-fill-color: white;
+            display: block;
+            width: 9%;
+            font-size: 100%;
+            size-adjust: 5%;
+            position: absolute;
+            top: 15px;
+            right: 16px;
+            cursor: pointer;
+            position: fixed;
+            border-radius: 10%;
+        }
+
+        .logo {
+            display: inline-block;
+            width: 10%;
+            margin: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 26px;
+            text-shadow: 2px 1px rgb(71, 223, 250), 2px -1px;
+            position: relative;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .button1 {
+            background-color: rgb(57, 169, 238);
+            -webkit-text-fill-color: white;
+            border: transparent;
+            border-radius: 5%;
+            align-content: center;
+            position: relative;
+            top: 130px;
+            right: -530px;
+            padding: 20px;
+            margin: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+
+        }
+
+        .button2 {
+            background-color: rgb(255, 255, 255);
+            -webkit-text-fill-color: rgb(0, 0, 0);
+            border: transparent;
+            align-content: center;
+            position: relative;
+            top: 130px;
+            right: -560px;
+            padding: 20px;
+            margin: 5px;
+            border-radius: 5%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+
+        }
+
+        .page-title {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            display: block;
+            width: 900px;
+            margin: 4%;
+            position: relative;
+            top: 100px;
+            right: -325px;
+            color: white;
+            font-weight: 100;
+        }
+
+        .caption {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            display: block;
+            width: 600px;
+            margin: 0%;
+            position: relative;
+            top: 90px;
+            right: -421px;
+            color: white;
+            font-weight: 100;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="top-part">
+        <p class="logo">Mentos</p>
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <a class="home">
+                        <a href="link">Home</a>
+                    </a>
+                    <a class="features">
+                        <a href="link">Features</a>
+                    </a>
+                    <a class="pricing"> <a href="link">Pricing</a>
+                    </a>
+                    <a class="faqs"><a href="link">Faqs</a>
+                    </a>
+                    <a class="team"><a href="link">Team</a>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="page-title">
+            <h1>Modern Responsive Landing Pack</h1>
+        </div>
+        <div class="caption">
+            <h2> Mentos is a simple and fastest way to create your next landing page. </h2>
+
+        </div>
+
+        <button class="button1"> Start Browsing &#62; </button>
+        <button class="button2"> Learn More &#62; </button>
+
+        <button class="subscribe">Subscribe</button>
+
+    </section>
+
+</body>
+
+</html>
